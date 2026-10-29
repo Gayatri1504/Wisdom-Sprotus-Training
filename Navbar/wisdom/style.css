@@ -9,42 +9,56 @@ body{
 }
 
 nav{
+    width:95%;
+    margin:20px auto;
+    background:#e7f4f3;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:#e6f4f1;
-    padding:15px 30px;
+    padding:18px 30px;
 }
 
 .logo h2{
-    color:#00695c;
-    font-size:24px;
+    color:#0d6b64;
+    font-size:22px;
+}
+
+.logo img{
+    width:180px;
+    height:70px;
+    object-fit:contain;
 }
 
 .menu{
     display:flex;
-    gap:20px;
+    gap:25px;
 }
 
 .menu a{
     text-decoration:none;
-    color:black;
+    color:#333;
     font-size:15px;
 }
 
 .menu a:hover{
-    color:orange;
+    color:#ff6b1a;
+}
+
+.active{
+    color:#ff6b1a !important;
+    font-weight:bold;
 }
 
 .button button{
-    background:orange;
+    background:#ff6b1a;
     color:white;
     border:none;
-    padding:10px 18px;
-    border-radius:20px;
+    padding:12px 25px;
+    border-radius:30px;
+    font-size:15px;
     cursor:pointer;
 }
 
 .button button:hover{
-    background:darkorange;
+    background:#e95b0c;
 }
