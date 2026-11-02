@@ -1,0 +1,37 @@
+body{
+    font-family:Arial;
+    background:#eeeeee;
+}
+
+h1{
+    text-align:center;
+}
+.container{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+    gap:25px;
+    padding:20px;
+}
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 8px gray;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding-left:15px;
+
+}
+
+.card p{
+    padding:0 15px 15px;
+
+}

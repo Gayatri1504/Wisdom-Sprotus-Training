@@ -1,0 +1,21 @@
+body{
+    font-family:Arial;
+    text-align:center;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:100px 100px 100px;
+    gap:10px;
+    justify-content:center;
+}
+
+.box{
+    background:skyblue;
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+}
